@@ -21,11 +21,11 @@ app.get("/", (req, res) => {
 });
 
 app.get("/about", (req, res) => {
-    return res.render("/about");
+    return res.render("about");
 });
 
 app.get("/projects", (req, res) => {
-    return res.render("/my_projects");
+    return res.render("my_projects");
 });
 
 
