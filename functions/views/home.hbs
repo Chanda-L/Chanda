@@ -18,25 +18,25 @@
 </head>
 
 <body>
-<div class="navbar-fixed">
-    <nav class="z-depth-4 blue">
-        <div class="nav-wrapper">
-            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <a id="logo" href="#" class="brand-logo"> Chanda</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="/">About Me</a></li>
-                  <li><a href="/about"> Me as a person</a></li>
-                <li><a href="/projects" >My Projects<i class='material-icons left'>arrow_drop_down</i></a></li>
-                <li><a href="/skills">My Skills</a></li>
-            </ul>
-        </div>
-    </nav>
- </div>
+    <div class="navbar-fixed">
+        <nav class="z-depth-4 blue">
+            <div class="nav-wrapper">
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <a id="logo" href="#" class="brand-logo"> Chanda</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="/about"> Me as a person</a></li>
+                    <li><a href="/projects">My Projects<i class='material-icons left'>arrow_drop_down</i></a></li>
+                    <li><a href="/skills">My Skills</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <ul id="slide-out" class="sidenav">
-    
+
         <li><a href="/about"><i class="material-icons">info</i>About Me</a></li>
         <li><a href="/projects"><i class="material-icons">web</i>My Projects</a></li>
-    
+
         <li><a class="waves-effect" href="/skills"><i class="material-icons">flash_on</i>Skills</a></li>
     </ul>
 
@@ -49,7 +49,7 @@
                 <div class="row center">
 
 
-                    <h5 id="subHeaderText" class="header col s12 white-text light"></h5>
+                    <h5 id="subHeaderText" style="font-family: Alfa Slab One" class="header col s12 white-text light"></h5>
                 </div>
                 <div class="row center">
 
@@ -72,7 +72,8 @@
                         <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
                         <h5 class="center"> Hire me</h5>
 
-                        <p class="light center-align ">I can create a website, web app or a mobile application. click <br><a class="btn pulse">HIRE</a></p>
+                        <p class="light center-align ">I can create a website, web app or a mobile application. click
+                            <br><a href="#modal1" class="btn pulse modal-trigger">HIRE</a></p>
                     </div>
                 </div>
 
@@ -81,11 +82,13 @@
                         <h2 class="center brown-text"><i class="material-icons">group</i></h2>
                         <h5 class="center">Interesting facts</h5>
 
-                        <p class="light center-align"> <strong> <br> 13 year old developer <br> Speak some spanish <br>Love rap <br> Love Chess <br> Swimming is my favourite sport<br> gold is my fav <br> Kappa and Bentley!<br> Designer<br> Love conversation</strong></p>
+                        <p class="light center-align"> <strong> <br> 13 year old developer <br> Speak some spanish <br>Love
+                                rap <br> Love Chess <br> Swimming is my favourite sport<br> gold is my fav <br> Kappa
+                                and Bentley!<br> Designer<br> Love conversation</strong></p>
                     </div>
                 </div>
 
-         
+
             </div>
 
         </div>
@@ -95,7 +98,7 @@
     <div class="parallax-container valign-wrapper">
         <div class="section no-pad-bot">
             <div class="container">
-                
+
             </div>
         </div>
         <div class="parallax"><img src="background.jpg" alt="Unsplashed background img 2"></div>
@@ -108,10 +111,61 @@
                 <div class="col s12 center">
                     <h3><i class="mdi-content-send brown-text"></i></h3>
                     <h4>Contact Me</h4>
-                    <p class="left-align light center-align">At this point you can find me as <a href="https://www.instagram.com/big_huncho_jack/?hl=en">@big_huncho_jack</a> & <a href="https://www.instagram.com/lil_huncho_jack/?hl=en">@lil_huncho_jack</a> on instagram</p>
+                    <p class="left-align light center-align">At this point you can find me as <a href="https://www.instagram.com/big_huncho_jack/?hl=en">@big_huncho_jack</a>
+                        & <a href="https://www.instagram.com/lil_huncho_jack/?hl=en">@lil_huncho_jack</a> on instagram</p>
                 </div>
             </div>
 
+        </div>
+    </div>
+
+
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4 class="teal-text center-align">HIRE</h4>
+            <p class="center-align">Enter the following to submit a request</p>
+        </div>
+
+        <div class="row">
+            <div class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">email</i>
+                        <input type="text" id="email" class="autocomplete">
+                        <label for="autocomplete-input">email address</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">textsms</i>
+                        <input type="text" id="project" class="autocomplete">
+                        <label for="autocomplete-input">Project you want. e.g Website</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">info</i>
+                        <input type="text" id="info" class="autocomplete">
+                        <label for="autocomplete-input">other information</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">group</i>
+                        <input type="text" id="name" class="autocomplete">
+                        <label for="autocomplete-input">Name</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">money </i>
+                        <input type="text"  id="budget"class="autocomplete">
+                        <label for="autocomplete-input">budget[dollars or rands]</label>
+                    </div>
+
+                    <div class="center-align">
+                        <button class="btn pulse">
+                            Send <i class="material-icons left">send</i>
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
         </div>
     </div>
 
@@ -127,16 +181,57 @@
         <div class="parallax"><img src="background.jpg" alt="Unsplashed background img 3"></div>
     </div>
 
+    <div class="container">
+        <div class="section">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h4><a href="http://www.sabc.co.za/sabc/">SABC </a>Interviews</h4>
+
+                    <div class="row">
+                        <div class="col l6">
+                            <div style="border-radius: 20px;" class="z-depth-5 video-container">
+                                <iframe width="853" height="480" src="   //www.youtube.com/embed/6zGB0BYXbmE?rel=0"
+                                    frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col l6">
+                            <div style="border-radius: 20px;" class="z-depth-5 video-container">
+                                <iframe width="853" height="480" src="   //www.youtube.com/embed/bfGyfzJRIhA?rel=0"
+                                    frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <h4>Gallery </h4>
+                    {{!--
+
+                    <div class="carousel carousel-slider">
+                        <a class="carousel-item" href="#one!"><img src="adidas.jpg"></a>
+                        <a class="carousel-item" href="#two!"><img src="blackbanda.jpg"></a>
+                        <a class="carousel-item" href="#three!"><img src="red-kappa.jpg"></a>
+                        <a class="carousel-item" href="#four!"><img src="bluebanda.jpg"></a>
+                        <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+                    </div> --}}
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <footer class="page-footer teal">
         <div class="container">
             <div class="row">
                 <div class="col l4 s12">
                     <h5 class="white-text">Chanda Lupambo</h5>
-                    <p class="grey-text text-lighten-4">I am a 13 year old South African with huge ambitions and dreams of being a successful Entrepenuer, author and more!</p>
+                    <p class="grey-text text-lighten-4">I am a 13 year old South African with huge ambitions and dreams
+                        of being a successful Entrepenuer, author and more!</p>
 
 
                 </div>
-               
+
                 <div class="col l4  s12">
                     <h5 class="white-text">Products</h5>
                     <ul>
@@ -170,20 +265,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
-<!-- Tap Target Structure -->
-<div class="tap-target" data-target="menu">
-    <div class="tap-target-content">
-        <h5>Title</h5>
-        <p>A bunch of text</p>
-    </div>
-</div>
-
 
 <script>
     $(document).ready(function () {
         $('.parallax').parallax();
         $('.sidenav').sidenav();
         $('.dropdown-trigger').dropdown();
+        $('.carousel').carousel();
+        $('.modal').modal();
     });
 
 
@@ -203,8 +292,31 @@
             setTimeout(typeWriter, speed);
         }
     }
+
     typeWriter();
 </script>
 
+<script>
+
+    var slider = document.getElementById('test-slider');
+    noUiSlider.create(slider, {
+        start: [20, 80],
+        connect: true,
+        step: 1,
+        orientation: 'horizontal', // 'horizontal' or 'vertical'
+        range: {
+            'min': 0,
+            'max': 100
+        },
+        format: wNumb({
+            decimals: 0
+        })
+    });
+
+</script>
+
+<script>
+    
+</script>
 
 </html>
