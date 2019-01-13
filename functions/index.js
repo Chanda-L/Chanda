@@ -30,6 +30,8 @@ app.get("/projects", (req, res) => {
     return res.render("my_projects");
 });
 
-
+app.get("/resume", (req, res) => {
+    return res.render("resume")
+}); 
 
 exports.app = functions.https.onRequest(app);
